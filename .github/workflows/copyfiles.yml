@@ -16,7 +16,7 @@ jobs:
       - uses: garygrossgarten/github-action-scp@release
         with: 
           local: /
-          remote: scp/var/www/arpankc.com/public_html
+          remote: ./var/www/arpankc.com/public_html
           host: ${{ secrets.HOST }}
           username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.PASSWORD }}     
