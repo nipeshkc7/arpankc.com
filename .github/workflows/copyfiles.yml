@@ -1,4 +1,4 @@
-name: Build, Test and deploy
+name: Copy files to Droplet
 
 on:
   push:

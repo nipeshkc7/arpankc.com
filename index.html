@@ -167,7 +167,10 @@
             <h3 class="mb-0">Beating Bookies</h3>
             <div class="subheading mb-3">A free platform for tracking your matched-betting
               activities. </div>
-            <p>A free to use service for storing and updating activities for matched-bettors.
+            <p>A free-to-use application made for matched-bettors. Used for tracking betting
+              activities, profits along with matched-betting tools like dutching calculator,
+              back-lay calculators. This application has support for Google Sign In and regular
+              email sign in.
             </p>
             <p><b>Technologies used: </b>Node.js, Vue.js, Express, Sqlite database , Testing
               framework:
@@ -177,8 +180,8 @@
             <ul>
               <li>OAuth 2.0 for authentication and authorization using Google API</li>
               <li>Backend API and unit testing with Mocha and Chai.</li>
-              <li>Mobile responsive front-end using Bulma/Buefy component libraries.</li>
-              <li>Heroku CI for automated testing and deployment</li>
+              <li>Responsive front-end using Bulma/Buefy component libraries</li>
+              <li>Github actions for automated testing and Continuous Integration.</li>
               <li>API based server architecture with component based frontend application.</li>
             </ul>
 
@@ -360,6 +363,17 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+  <script>
+    console.log('waking up sleeping apps ...')
+    fetch('https://matched-betting-tracker.heroku.app')
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        console.log(data);
+        console.log('woke up sleeping apps');
+      });
+  </script>
 
 </body>
 
