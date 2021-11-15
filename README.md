@@ -1,4 +1,6 @@
 # Arpan KC Portfolio website
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b3d729b4-2a57-42b1-bc58-301d113ab516/deploy-status)](https://app.netlify.com/sites/adoring-babbage-b2fad8/deploys)
+
 
 A simple portfolio website with a Continuous Deployement pipeline setup using Github actions.
 
